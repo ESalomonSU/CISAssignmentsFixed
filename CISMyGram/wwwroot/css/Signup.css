@@ -1,0 +1,54 @@
+﻿#FormContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexRow {
+    display: flex;
+}
+
+.ColumnIputs input {
+    width: 100%;
+}
+
+.FullRow select {
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+    .FlexRow {
+        flex-direction: column;
+    }
+
+    .ColumnLabels {
+        width: 100%;
+    }
+
+    .ColumnInputs {
+        width: 100%;
+    }
+
+    .FullRow {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 401px) {
+    .FlexRow {
+        flex-direction: row;
+    }
+
+    .ColumnLabels {
+        width: 18%;
+    }
+
+    .ColumnInputs {
+        width: 30%;
+    }
+
+    .FullRow {
+        width: 82%;
+    }
+
+}
