@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/salom11/Desktop/CISMidTerm/CISMyGram/CISMyGram/CISMyGram.csproj": {}
+    "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj": {}
   },
   "projects": {
-    "/Users/salom11/Desktop/CISMidTerm/CISMyGram/CISMyGram/CISMyGram.csproj": {
+    "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/salom11/Desktop/CISMidTerm/CISMyGram/CISMyGram/CISMyGram.csproj",
+        "projectUniqueName": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj",
         "projectName": "CISMyGram",
-        "projectPath": "/Users/salom11/Desktop/CISMidTerm/CISMyGram/CISMyGram/CISMyGram.csproj",
+        "projectPath": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj",
         "packagesPath": "/Users/salom11/.nuget/packages/",
-        "outputPath": "/Users/salom11/Desktop/CISMidTerm/CISMyGram/CISMyGram/obj/",
+        "outputPath": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/salom11/.config/NuGet/NuGet.Config"

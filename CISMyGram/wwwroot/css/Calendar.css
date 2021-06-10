@@ -1,0 +1,73 @@
+﻿.FontBold {
+    font-weight: bold;
+}
+
+#MainCalendarContainer {
+    font-size: 32px;
+}
+
+#TheCalendar {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.CalendarHeaderRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.CalendarRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlexItem {
+    width: 14.28%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#TheCalendar {
+    font-size: 1rem;
+}
+
+.WeekDay {
+    width: 14.28%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Weekend {
+    background-color: #e3e3e3;
+}
+
+.WeekDayItem {
+    height: 15%;
+}
+
+.DayClass {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Event {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: .8rem;
+    width: 100%;
+}
+
+.SelectedDay {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}

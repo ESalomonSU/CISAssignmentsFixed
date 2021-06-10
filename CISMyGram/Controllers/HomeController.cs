@@ -28,12 +28,12 @@ namespace CISMyGram.Controllers
             return View();
         }
 
-        public IActionResult Calendar()
+        public IActionResult Signup()
         {
             return View();
         }
 
-        public IActionResult Signup()
+        public IActionResult Calendar()
         {
             return View();
         }
