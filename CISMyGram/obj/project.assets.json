@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj",
+      "projectUniqueName": "/Users/salom11/Desktop/CISMyGramAssignment7/CISMyGram/CISMyGram.csproj",
       "projectName": "CISMyGram",
-      "projectPath": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/CISMyGram.csproj",
+      "projectPath": "/Users/salom11/Desktop/CISMyGramAssignment7/CISMyGram/CISMyGram.csproj",
       "packagesPath": "/Users/salom11/.nuget/packages/",
-      "outputPath": "/Users/salom11/Desktop/CISCalendar/CISMyGramFixed/CISMyGram/obj/",
+      "outputPath": "/Users/salom11/Desktop/CISMyGramAssignment7/CISMyGram/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/salom11/.config/NuGet/NuGet.Config"

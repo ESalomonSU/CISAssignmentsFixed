@@ -3,12 +3,6 @@
     --imageWidthHeightMainImages: 100px;
 }
 
-#MainContainer {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-}
-
 #MainProfileInformation img {
     width: var(--imageWidthHeight);
     height: var(--imageWidthHeight);
@@ -31,99 +25,54 @@
     border-radius: 50%;
 }
 
+#ProfileImage {
+    width: 100px;
+    height: 100px;
+}
+
 #MainImages img {
     width: 200px;
     height: 200px;
 }
 
-@media only screen and (max-width: 480px) {
-    #MainProfileInformation {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    #SectionsTable {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #Options {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #MainImagesContainer {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #OptionsTable {
-        display: grid;
-        grid-template-columns: auto;
-    }
+#SectionsTable {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media only screen and (min-width: 481px) {
-    #MainProfileInformation {
-        width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-
-    .Span2Columns {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .Span3Rows {
-        grid-row-start: 1;
-        grid-row-end: 4;
-    }
-
-    #SectionsTable {
-        width: 45%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #Sections {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    #Options {
-        width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #OptionsTable {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #MainImagesContainer {
-        width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #MainImages {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-
-    #OptionsTable {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-    }
-
+#Options {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#MainImagesContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SectionsTable {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Options {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#OptionsTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainImagesContainer {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+

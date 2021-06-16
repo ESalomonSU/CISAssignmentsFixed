@@ -4,60 +4,120 @@
 
 <link rel="stylesheet" href="~/css/Index.css" />
 
-<div id="MainContainer">
-    <div id="MainProfileInformation">
-                <div class="Span3Rows">
-                    <img src="https://i.imgflip.com/1x09yu.jpg" />
-                </div>
-                <div>
-                    <span>Esteban Salomon</span>
-                </div>
-                <div>
-                    <button class="GramButtons">Follow</button>
-                </div>
-                <div class="Span2Columns">
-                    <span class="FontBold">6</span>
-                    <span>Posts<span>
-                    <span class="FontBold">1,000</span>
-                    <span>Followers<span>
-                    <span class="FontBold">100</span>
-                    <span>Following<span>
-                </div>
-                <div class="Span2Columns">
-                    <span>Hello I'm Esteban and I like videogames</span>
-                </div>
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-2">
+            <img id="ProfileImage" src="https://i.imgflip.com/1x09yu.jpg" />
+        </div>
+        <div class="col-2">
+            <span>Esteban Salomon</span>
+        </div>
+        <div class="col-2">
+            <button class="GramButtons">Follow</button>
+        </div>
     </div>
-    <div id="SectionsTable">
-        <div id="Sections">
-            <div>
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-4">
+            <span class="FontBold">6</span>
+            <span>Posts</span>
+            <span class="FontBold">1,000</span>
+            <span>Followers</span>
+            <span class="FontBold">100</span>
+            <span>Following</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-4">
+            <span>Hello I'm Esteban and I like videogames</span>
+        </div>
+    </div>
+</div>
+    <div id="SectionsTable" class="container">
+        <div id="Sections" class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <img src="https://spy.com/wp-content/uploads/2020/10/best-gaming-console.png?w=958&h=599&crop=1" />
                 <br>
                 <span>My Favorite consoles</span>
             </div>
-            <div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <img src="https://store.ubi.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dw699315d7/landings/2020/ubisoftplus-games-redesign/ubisoft-plus_hero.jpg" />
                 <br>
                 <span>My Favorite games</span>
             </div>
         </div>
     </div>
-    <div id="Options">
-        <div id="OptionsTable">
-                <span>POSTS</span>
-                <span>REELS</span>
-                <span>IGTV</span>
-                <span>TAGGED</span>
-                <a href="Home/Calendar"><span>VIEW BY CALENDAR</span></a>
+    <div id="Options" class="container">
+        <div id="OptionsTable" class="row">
+                <span class="col-lg-2 col-md-6 col-sm-12">POSTS</span>
+                <span class="col-lg-2 col-md-6 col-sm-12">REELS</span>
+                <span class="col-lg-2 col-md-6 col-sm-12">IGTV</span>
+                <span class="col-lg-2 col-md-6 col-sm-12">TAGGED</span>
+                <a href="Home/Calendar" class="col-lg-2 col-md-6 col-sm-12"><span>VIEW BY CALENDAR</span></a>
         </div>
     </div>
-    <div id="MainImagesContainer">
-        <div id="MainImages">
-            <img src="https://digest.bps.org.uk/wp-content/uploads/2019/10/gettyimages-1045346796.jpg" />
-            <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone/strategy-guide/articles/2021/chapter-1/01e-controls-/01E-Controls-001.jpg" />
+<div id="MainImagesContainer">
+    <div id="MainImages" class="row">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://s.wsj.net/public/resources/images/B3-DI816_GAMEJO_P_20190306133137.jpg" class="d-block w-100" />
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="https://images.techhive.com/images/article/2017/04/jobsimulator10-100720363-large.3x2.jpg" class="d-block w-100" />
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="https://s17189.pcdn.co/blog/wp-content/uploads/2018/04/jeshoots-com-250229-unsplash-1060x540.jpg" class="d-block w-100" />
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone/strategy-guide/articles/2021/chapter-1/01e-controls-/01E-Controls-001.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img src="https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto,f_auto,q_auto/redbullcom/2020/3/31/lqnzewbhsj9cksy25jzg/gameon" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img src="https://pyxis.nymag.com/v1/imgs/160/7b8/be9b71674a92129013428120b1a0c699b7-howtogetintodrawing.rsocial.w1200.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img src="https://i.pinimg.com/originals/5d/73/9c/5d739c284cc309332f2f1e1d83518b1c.png" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="https://digest.bps.org.uk/wp-content/uploads/2019/10/gettyimages-1045346796.jpg" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <iframe width="200" height="200" src="https://www.youtube.com/embed/XaO_3GcQyiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </div>
     </div>
 </div>
