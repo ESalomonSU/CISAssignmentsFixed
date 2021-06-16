@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{0CFE1774-93D5-4DED-B9CE-164A84086646}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CISMyGram/wwwroot/css/Index.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CISMyGram/Views/Home/Calendar.cshtml">
     <Files>
-      <File FileName="CISMyGram/wwwroot/css/Index.css" Line="55" Column="1" />
+      <File FileName="CISMyGram/Views/Home/Index.cshtml" Line="20" Column="21" />
+      <File FileName="CISMyGram/Views/Home/Calendar.cshtml" Line="41" Column="22" />
       <File FileName="CISMyGram/wwwroot/css/Calendar.css" />
-      <File FileName="CISMyGram/Views/Home/Calendar.cshtml" />
-      <File FileName="CISMyGram/Views/Shared/_Layout.cshtml" />
-      <File FileName="CISMyGram/Views/Home/Index.cshtml" Line="116" Column="102" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,13 +12,13 @@
             <Node name="CISMyGram" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Calendar.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="Index.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
